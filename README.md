@@ -1,2 +1,9 @@
-# iop
-Miscellaneous useful functions
+Miscellaneous useful functions.
+
+### ctype
+
+```
+isalnum(c)
+```
+
+As the C equivalents.
