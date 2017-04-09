@@ -45,3 +45,12 @@ function put(m, key, val) {
 		val,
 	}
 }
+
+exports.get = get
+exports.isalnum = isalnum
+exports.isalpha = isalpha
+exports.isdigit = isdigit
+exports.islower = islower
+exports.isupper = isupper
+exports.print = print
+exports.put = put
