@@ -24,7 +24,7 @@ Get a value. If not present, returns the false value supplied initially for this
 m = put(m, key, val)
 ```
 
-Put a new key-value pair in a map, returning the new map while leaving the old one unchanged. Any existing value for that key will be overridden. Represent an empty map with any false value. Keys don't need to be ordered, just comparable with ```===```.
+Put a new key-value pair in a map, returning the new map while leaving the old one unchanged. Any existing value for that key will be overridden. Represent an empty map with any false value. Keys don't need to be ordered, just comparable by strict equality.
 
 ### print
 
