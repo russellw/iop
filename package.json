@@ -1,0 +1,19 @@
+{
+  "author": "Russell Wallace <russell.wallace@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/russellw/iop/issues"
+  },
+  "description": "Miscellaneous useful functions",
+  "homepage": "https://github.com/russellw/iop#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "iop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellw/iop.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
