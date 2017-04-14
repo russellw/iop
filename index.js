@@ -1,6 +1,14 @@
 'use strict'
 var util = require('util')
 
+function count(a, f) {
+	var n = 0
+	for (var x of a)
+		if (f(x))
+			n++
+	return n
+}
+
 function get(m, key) {
 	while (m) {
 		if (m.key === key)
@@ -46,6 +54,7 @@ function put(m, key, val) {
 	}
 }
 
+exports.count = count
 exports.get = get
 exports.isalnum = isalnum
 exports.isalpha = isalpha

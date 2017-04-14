@@ -1,5 +1,13 @@
 Miscellaneous useful functions.
 
+### Arrays
+
+```
+count(a, f)
+```
+
+Count how many elements of an array satisfy a predicate.
+
 ### Functional maps
 
 ```
