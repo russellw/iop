@@ -29,6 +29,7 @@ isalnum(c)
 isalpha(c)
 isdigit(c)
 islower(c)
+isspace(c)
 isupper(c)
 ```
 

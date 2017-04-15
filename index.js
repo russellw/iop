@@ -33,6 +33,18 @@ function islower(c) {
 	return 'a' <= c && c <= 'z'
 }
 
+function isspace(c) {
+	switch (c) {
+	case '\t':
+	case '\n':
+	case '\v':
+	case '\f':
+	case '\r':
+	case ' ':
+		return true
+	}
+}
+
 function isupper(c) {
 	return 'A' <= c && c <= 'Z'
 }
