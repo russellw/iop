@@ -72,6 +72,7 @@ exports.isalnum = isalnum
 exports.isalpha = isalpha
 exports.isdigit = isdigit
 exports.islower = islower
+exports.isspace = isspace
 exports.isupper = isupper
 exports.print = print
 exports.put = put
