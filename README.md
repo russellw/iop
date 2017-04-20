@@ -1,4 +1,4 @@
-Miscellaneous useful functions.
+Miscellaneous useful functions *in one place*.
 
 ### Arrays
 
