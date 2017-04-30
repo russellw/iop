@@ -10,7 +10,7 @@ function count(a, f) {
 }
 
 function get(m, key) {
-	if (m instanceof map)
+	if (m instanceof Map)
 		return m.get(key)
 	while (m) {
 		if (m.key === key)
@@ -61,7 +61,7 @@ function print(a) {
 }
 
 function put(m, key, val) {
-	if (m instanceof map) {
+	if (m instanceof Map) {
 		m = new Map(m)
 		m.set(key, val)
 		return m
